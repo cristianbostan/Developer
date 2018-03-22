@@ -6,6 +6,6 @@ b--;
 c += 10;
 var x = true;
 var z = false;
-var name = prompt("What is your name?");
+var name = prompt("What is \nyour name?");
 var message = "Hello, ";
 alert(message + name);
