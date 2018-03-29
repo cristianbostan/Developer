@@ -5,22 +5,25 @@ function firstFunction() {
     secondFunction();
     var c = a + b;
 }
+
 function secondFunction() {
     var message;
     message = "Hello";
     thirdFunction();
 }
+
 function thirdFunction() {
     var i = 0;
     var total = 0;
 
-    while ( i < 100 ) {
+    while (i < 100) {
         total = total + 100;
         i++;
-    }   
-  
-    fourthfunction();
+    }
+
+    fourthFunction();
 }
+
 function fourthFunction() {
     headline.innerHTML = "You clicked the headline!";
 }
@@ -32,8 +35,3 @@ var headline = document.getElementById("mainHeading");
 headline.onclick = function() {
     firstFunction();
 };
-
-
-
-
-

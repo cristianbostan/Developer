@@ -2,12 +2,15 @@
 function firstFunction() {
     secondFunction();
 }
+
 function secondFunction() {
     thirdFunction();
 }
+
 function thirdFunction() {
-    fourthfunction();
+    fourthFunction();
 }
+
 function fourthFunction() {
     headline.innerHTML = "You clicked the headline!";
 }
@@ -19,8 +22,3 @@ var headline = document.getElementById("mainHeading");
 headline.onclick = function() {
     firstFunction();
 };
-
-
-
-
-
