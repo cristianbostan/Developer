@@ -1,3 +1,4 @@
+import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -13,7 +14,7 @@ public class CircleTest {
         circle = new Circle(5);
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void should_get_perimeter_31point4_when_radius_is_5(){
         assertEquals(31.4, circle.getPerimeter(), delta);
     }
